@@ -9,7 +9,6 @@ In many urban areas, there are tons of unexplored or underappreciated tourist sp
 - Assigns users *missions* to visit tourist/historic spots.
 - Rewards users with *points and badges* for uploading images from their visits.
 - Offers personalized suggestions for activities and food based on the user’s *budget* at a particular location.
-
 ---
 
 ## ✨ Features
@@ -34,18 +33,13 @@ In many urban areas, there are tons of unexplored or underappreciated tourist sp
   - Fun activities or shops
   - Experiences that fit within their budget
 
-### 📸 Image Uploads
-- Each challenge allows the user to upload images.
-- Helps validate the visit and unlocks more points.
-
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (React / Vue / Vanilla)
-- **Backend**: Node.js / Python / PHP (Specify if applicable)
-- **Database**: MongoDB / MySQL / Firebase
-- **Other**: Cloud storage or local folder for image uploads
+- **Frontend**: HTML, CSS, JavaScript (React / Vue )
+- **Backend**: Node.js
+- **Database**:Firebase
 
 ---
 

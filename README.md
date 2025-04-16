@@ -1,16 +1,65 @@
-<<<<<<< HEAD
-# React + Vite
+# 🧭 Nagar Vihari - Explore Your City Like a Game!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nagar Vihari** is an interactive and gamified tour-planning website designed to encourage people—especially teenagers and middle-aged individuals—to explore historical, cultural, and modern landmarks in cities like **Hyderabad**.
 
-Currently, two official plugins are available:
+## 🎯 Project Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In many urban areas, there are tons of unexplored or underappreciated tourist spots. Nagar Vihari aims to bring attention to these places through a fun and engaging platform that:
 
-## Expanding the ESLint configuration
+- Assigns users *missions* to visit tourist/historic spots.
+- Rewards users with *points and badges* for uploading images from their visits.
+- Offers personalized suggestions for activities and food based on the user’s *budget* at a particular location.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# nagar-vihari
->>>>>>> b89b3266adad48de1f6feb3c18f461ffc01b7296
+---
+
+## ✨ Features
+
+### 🗺️ Tour Challenges (Gamified Experience)
+- Users receive tasks or challenges to visit specific locations in the city.
+- After visiting, users upload pictures as proof and earn **score points**.
+- Scoring tiers:
+  - 🥉 Bronze
+  - 🥈 Silver
+  - 🥇 Gold
+  - 💎 Platinum
+
+### 🏆 Leaderboard
+- Users with the highest scores rank on the leaderboard.
+- Friendly competition encourages regular exploration.
+
+### 💸 Budget-Based Recommendations
+- When visiting a place, users can input a budget.
+- The app will suggest:
+  - Nearby famous foods
+  - Fun activities or shops
+  - Experiences that fit within their budget
+
+### 📸 Image Uploads
+- Each challenge allows the user to upload images.
+- Helps validate the visit and unlocks more points.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript (React / Vue / Vanilla)
+- **Backend**: Node.js / Python / PHP (Specify if applicable)
+- **Database**: MongoDB / MySQL / Firebase
+- **Other**: Cloud storage or local folder for image uploads
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/nagar-vihari.git
+
+# 2. Navigate into the project
+cd nagar-vihari
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the project
+npm start

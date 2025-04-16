@@ -1,0 +1,28 @@
+/* Main container for the planner */
+.planner-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Iframe styling */
+.planner-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: transparent;
+}
+
+/* Loading state (optional) */
+.planner-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  color: #4361ee;
+}

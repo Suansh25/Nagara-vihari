@@ -1,0 +1,243 @@
+/* Badges.css */
+:root {
+  --bronze-color: #cd7f32;
+  --silver-color: #c0c0c0;
+  --gold-color: #ffd700;
+  --platinum-color: #e5e4e2;
+  --diamond-color: #b9f2ff;
+  --heroic-color: #ff4d4d;
+}
+
+.badges-section {
+  width: 100%;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #faf8ed 100%);
+}
+
+.badges-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.badges-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.badges-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.badges-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 0;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+}
+
+.badges-container::-webkit-scrollbar {
+  display: none;
+}
+
+.badge-card {
+  flex: 0 0 280px;
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  scroll-snap-align: center;
+  border: 3px solid #eee;
+}
+
+.badge-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.badge-card.unlocked:hover {
+  box-shadow: 0 0 20px 5px var(--badge-color);
+}
+
+.badge-header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.badge-title {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.points-requirement {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.badge-image-container {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.badge-image {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.badge-info {
+  text-align: center;
+}
+
+.badge-description {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.badge-status {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.status-unlocked {
+  color: #27ae60;
+}
+
+.status-locked {
+  color: #e74c3c;
+}
+
+.achieved-points {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.current-badge-section {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 15px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.current-badge-title {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.points-display {
+  display: block;
+  font-size: 1.2rem;
+  color: #3498db;
+  margin-top: 0.5rem;
+}
+
+.loading-message {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Badge type specific styles */
+.bronze-card.unlocked {
+  border-color: var(--bronze-color);
+}
+
+.silver-card.unlocked {
+  border-color: var(--silver-color);
+}
+
+.gold-card.unlocked {
+  border-color: var(--gold-color);
+}
+
+.platinum-card.unlocked {
+  border-color: var(--platinum-color);
+}
+
+.diamond-card.unlocked {
+  border-color: var(--diamond-color);
+}
+
+.heroic-card.unlocked {
+  border-color: var(--heroic-color);
+}
+
+@media (max-width: 768px) {
+  .badges-title {
+    font-size: 2rem;
+  }
+  
+  .badges-subtitle {
+    font-size: 1rem;
+  }
+  
+  .badge-card {
+    flex: 0 0 240px;
+  }
+  
+  .badge-image-container {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .current-badge-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Add these to your Badges.css */
+
+.locked-placeholder {
+  background: #f0f0f0;
+  border: 3px dashed #ccc !important;
+}
+
+.locked-placeholder .badge-title {
+  color: #666;
+}
+
+.mystery-badge {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #999;
+  margin: 0 auto;
+}
+
+.locked-placeholder .badge-description {
+  color: #777;
+  font-style: italic;
+}
+
+.locked-placeholder:hover {
+  transform: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}

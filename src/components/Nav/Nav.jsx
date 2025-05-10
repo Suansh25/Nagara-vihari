@@ -63,7 +63,7 @@ function Nav() {
             <header className="header">
                 <div className="header-top">
                     <div className="logo">
-                        <span>🗺️ Hyderabad Explorer</span>
+                        <span>🗺️ नगर Vihari</span>
                     </div>
                    
                 </div>

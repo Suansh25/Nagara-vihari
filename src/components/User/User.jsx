@@ -6,7 +6,7 @@ import {
     onAuthStateChanged,
     signOut,
 } from "firebase/auth";
-import { doc, setDoc, getDoc, onSnapshot } from "firebase/firestore";
+import { doc, setDoc, onSnapshot } from "firebase/firestore";
 import "./User.css";
 
 function User() {

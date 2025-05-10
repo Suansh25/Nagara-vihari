@@ -80,7 +80,6 @@ function App() {
     { image: "./CardImages/charminar.jpg", title: "Charminar", desc: "Historic monument in Hyderabad", a: "https://youtu.be/SlAgmzFovXk?feature=shared", points: 15 },
     { image: "./CardImages/hussiansagarlake.webp", title: "TankBund", desc: "Scenic waterfront road", a: "https://youtu.be/DBkqqV1qmMo?si=Bs4n-KnDtNNUa1z1", points: 10 },
     { image: "./CardImages/golcondafort.jpg", title: "Golconda", desc: "Ancient fort with rich history", a: "https://youtu.be/jADQ6WPDaw4?si=P3deZbCjI0sHqtrB", points: 15 },
-    { image: "./CardImages/chowmahalla.jpe0g", title: "Chowmahalla Palace", desc: "Nizam's Home in heart of Hyd.", a: "https://youtu.be/TgRge3EIjVI?si=aMmhooChLVw0ZX5d", points: 5 },
     { image: "./CardImages/birlamandir.png", title: "Popular Temple", desc: "Popular Temple near tankbund on a hill.", a: "https://youtu.be/y2jSFreX1jc?si=XiOKSG99V66cQ0HZ", points: 5 },
     { image: "./CardImages/birla-science-center.webp", title: "Birla Science center", desc: "Popular science museum", a: "https://youtu.be/tt3oG7x48Ro?si=zny69jICJ0G2buyz", points: 5 },
     { image: "./CardImages/nehruzoopark.jpg", title: "Zoo park", desc: "World renowned zoo park", a: "https://youtu.be/XY6PlzeKWjQ?feature=shared", points: 5 },
